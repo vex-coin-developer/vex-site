@@ -1,1 +1,3 @@
-h1 vex site {{envName}}
+//h1 vex site {{envName}}
+.env(*ngIf='envName !== "production"', [ngClass]='{"dev": envName==="development", "test": envName==="test"}') {{envName}}
+router-outlet

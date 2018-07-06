@@ -1,1 +1,1 @@
-<h1>vex site {{envName}}</h1>
+<!--h1 vex site {{envName}}--><div class="env" *ngIf="envName !== &quot;production&quot;" [ngClass]="{&quot;dev&quot;: envName===&quot;development&quot;, &quot;test&quot;: envName===&quot;test&quot;}">{{envName}}</div><router-outlet></router-outlet>
