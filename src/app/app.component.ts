@@ -13,5 +13,5 @@ export class AppComponent implements OnInit {
 	ngOnInit(): void {
 		this.envName = environment.name;
 	}
-	
+
 }
