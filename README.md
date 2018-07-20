@@ -1,5 +1,5 @@
 <div align="center">
-    <img src=".github/icon.png" alt="Logo" width='300px' height='auto'/>
+    <img src=".github/icon.png" alt="Logo" width='150px' height='auto'/>
 </div>
 
 # vex site
