@@ -7,6 +7,7 @@ import { GithubComponent } from './components/github/github.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ExchangesComponent } from './components/exchanges/exchanges.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
 	declarations: [
@@ -14,7 +15,8 @@ import { ExchangesComponent } from './components/exchanges/exchanges.component';
 		GithubComponent,
 		HeaderComponent,
 		FooterComponent,
-		ExchangesComponent
+		ExchangesComponent,
+		AboutComponent
 	],
 	imports: [
 		BrowserModule,
